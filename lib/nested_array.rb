@@ -16,6 +16,7 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
+#Build a nested array of the 
 def assembled_matrix
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
