@@ -22,6 +22,8 @@ def assembled_matrix
 [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 end
 
+#Using array litteral syntax Build a nested array from ORGANIC_PRODUCE & CONVENTIONAL_PRODUCE
+#Sort each internal array alphabetically by the first character
 def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
