@@ -16,8 +16,8 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-#Build a nested array of the 
-#conventional produce is first, on the 'zeroth' / 'bottom' shelf
+#Build a nested array from ORGANIC_PRODUCE & CONVENTIONAL_PRODUCE
+#Where conventional produce on the 'zeroth' / 'bottom' shelf
 def assembled_matrix
 [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 end
