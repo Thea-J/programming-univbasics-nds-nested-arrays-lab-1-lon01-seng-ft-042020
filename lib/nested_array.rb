@@ -25,7 +25,10 @@ end
 #Using array litteral syntax Build a nested array from ORGANIC_PRODUCE & CONVENTIONAL_PRODUCE
 #Sort each internal array alphabetically by the first character
 def sorted_matrix
-  [["Eggplant","Grapefruit","Oranges", "Pineapple", "Watermelon" ], ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]]
+  [
+    ["Eggplant","Grapefruit","Oranges", "Pineapple", "Watermelon", 
+    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
+  ]
 end
 
 def matrix_lookup(matrix, row, column)
