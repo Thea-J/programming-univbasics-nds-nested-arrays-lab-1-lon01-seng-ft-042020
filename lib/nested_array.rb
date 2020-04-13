@@ -19,7 +19,8 @@ CONVENTIONAL_PRODUCE = [
 #Build a nested array from ORGANIC_PRODUCE & CONVENTIONAL_PRODUCE
 #Where conventional produce on the 'zeroth' / 'bottom' shelf
 def assembled_matrix
-[ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
+shelf = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+shelf
 end
 
 def sorted_matrix
