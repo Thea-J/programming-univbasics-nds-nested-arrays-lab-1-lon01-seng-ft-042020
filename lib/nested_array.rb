@@ -37,6 +37,8 @@ def matrix_lookup(matrix, row, column)
 end
 
 #Update the value of an element in a 2D array
+#Return the updated matrix
 def matrix_update(matrix, row, column, new_value)
   matrix[row][column] = new_value
+  matrix
 end
