@@ -20,7 +20,6 @@ CONVENTIONAL_PRODUCE = [
 #Where conventional produce on the 'zeroth' / 'bottom' shelf
 def assembled_matrix
 shelf = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-shelf
 end
 
 def sorted_matrix
